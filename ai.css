@@ -1,0 +1,61 @@
+/* Reset nhẹ */
+body, h1, ul, li, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Toàn trang */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #e2eafc);
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Tiêu đề */
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #0068ff;
+}
+
+/* Danh sách ứng dụng */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+li {
+  margin: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0068ff;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0040aa;
+}
+
+/* Nút đăng xuất */
+button {
+  padding: 10px 20px;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #d9363e;
+}
